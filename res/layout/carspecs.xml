@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:id="@+id/drawer">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dip"
+        android:src="@drawable/car3"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/carspeclistview"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+         />
+
+</LinearLayout>
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:id="@+id/navdrawerlistview"
+        android:background="#FFF"
+        />
+</android.support.v4.widget.DrawerLayout>
